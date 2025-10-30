@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   line-height: 1.6;
-  background: linear-gradient(to right, #1556c6, #1488ed);
+  background: linear-gradient(to right, #0358e9, #1488ed);
 }
 
 /* Header */
@@ -16,11 +16,7 @@ header {
   border-radius: 40px 10px 40px 10px;
   border: #004aad 2px solid;
 }
-header nav{
-  list-style: none;
-  
 
-}
 
 header .logo {
     height: 90px;
@@ -38,6 +34,7 @@ nav ul {
   margin: 0.5rem 0 0;
   display: flex;
   justify-content: center;
+  margin-right: 180px;
   gap: 1rem;
 }
 nav a {
@@ -226,6 +223,16 @@ nav a {
   cursor: pointer;
   transition: background 0.3s ease;
 }
+.form-inscripcion textarea {
+  width: 80%;
+  height: 100px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: vertical;
+
+}
 #programas {
   text-align: center;
   margin-top: 2rem;
@@ -247,6 +254,42 @@ nav a {
   background: #002060;
 }
 
+#beneficios {
+  background: linear-gradient(to right, #004aad, #1488ed);
+  color: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  border: #004aad 2px solid;
+}
+#beneficios h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#beneficios table {
+text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#beneficios table th,
+#beneficios table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+#beneficios table tr:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+#contacto {
+  background: linear-gradient(to right, #004aad, #1488ed);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px 40px 10px 40px;
+  margin: 10px;
+  text-align: center;
+  border: #004aad 2px solid;
+}
 
 /* Footer */
 footer {
@@ -254,4 +297,116 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
+}
+
+
+@media (max-width: 375px) {
+  
+  header h1{
+    display:none;
+  }
+  header nav ul{
+    flex-direction: column;
+    
+  }
+  header .logo {
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  .cursos-container {
+    grid-template-columns: 1fr;
+  }
+  .info-curso-1, .info-curso-2, .info-curso-3 {
+    float: none;
+    margin: 10px auto;
+  }
+  .curso-detalle {
+    float: none;
+    margin: 10px auto;
+  }
+  .imagen-cursos-01,.imagen-cursos-02 {
+    display: none;
+
+  }
+
+
+  .form-inscripcion h2 {
+    margin: 0.5rem 0;
+    display: none;
+  }
+  #programas, .programas-buttons, button {
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  #beneficios {
+    margin-top: none;
+    
+  }
+  #beneficios h2 {
+    font-size: 1.5rem;
+    padding: 0 2.5rem;
+  }
+  #beneficios, table {
+    margin-top: none;
+    text-align: center;
+    max-width: 80%;
+    display: contents;
+    justify-content: center;
+  }
+  #contacto {
+      padding: 17%;
+  }
+ 
+}
+
+  @media (max-width: 768px) {
+   
+ body {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  header .logo {
+    display: none;
+  }
+  #header nav {
+    display: flex;
+    justify-content: center;
+  }
+  #contenedor-info-cursos .info-curso-1, #contenedor-info-cursos .info-curso-2, #contenedor-info-cursos .info-curso-3 {
+    float: none;
+    margin: 10px auto;
+  }
+  #contacto textarea {
+    width: 80%;
+   
+  }
+  #programas, .programas-buttons, button {
+    flex-direction: column;
+    margin: 10px;
+  }
+  #beneficios {
+    margin-top: none;
+    text-align: center;
+  }
+
+  #beneficios h2 {
+    font-size: 1.5rem;
+    padding: 0 2.5rem;
+  }
+  #beneficios table{
+    text-align: center;
+    margin-left: 70px;
+  }
+  #beneficios table tr td{
+    padding: 10px;
+  }
+  #contacto{
+      margin-top: 20px;
+  }
+  
+ 
+
 }

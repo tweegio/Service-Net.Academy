@@ -29,7 +29,7 @@
 
   <!-- HERO -->
   <section class="hero">
-    <h2>Aprendé desde casa con nuestros cursos online</h2>
+    <h2>Aprendé desde casa con nuestros cursos on-line</h2>
     <p>Acceso a materiales, clases virtuales y asistencia personalizada.</p>
   </section>
 
@@ -132,9 +132,8 @@
       <h2>Ingresa y completa el formulario de inscripción</h2>
       
    
-      <p>Si estás interesado en alguno de nuestros cursos, completá el formulario de inscripción haciendo click en el botón.</p>
-      <b>¡Te esperamos!
-    </b><button onclick="location.href='https://forms.gle/yyKtSKCn5QTzmuhW8'" target="_blank"><b>Inscribirte</b></button>
+      <p>¿Te interesa alguno de nuestros cursos?, completá el formulario de inscripción haciendo click en el <b>botón.</b></p>
+   <button onclick="location.href='https://forms.gle/yyKtSKCn5QTzmuhW8'" target="_blank"><b>Inscribirte</b></button>
       <p>Una vez completado el formulario, nos pondremos en contacto a la brevedad.</p>
     </div>
      
@@ -190,7 +189,7 @@
         <th>Beneficio</th>
         <th>Descripción</th>
       </tr>
-      <br><br>
+      
       <tr>
         <td>Acceso 24/7</td>
         <td>Materiales en cualquier momento.</td>
@@ -202,40 +201,41 @@
       <tr>
         <td>Certificación</td>
         <td>Obtén un certificado al completar el curso.</td>
-      </tr>
-    </table>
-  </section>
+            </tr>
+          </table>
+        </section>
 
-  <!-- CONTACTO -->
-  <footer id="contacto">
-    <h2>Contacto</h2>
-    <p>Envianos tu consulta!!!</p>
-    <form action="send_message.gmail" method="POST">
-      <input type="text" placeholder="Tu nombre" required>
+        <!-- CONTACTO -->
+        <div id="contacto">
+          <h2>Contacto</h2>
+          <p>Envianos tu consulta!!!</p>
+          <form action="mailto:servicenet.contacto@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" placeholder="Tu nombre" required>
+            <br><br>
+            <input type="email" placeholder="Tu email" required>
+            <br><br>
+        <select name="lista-cursos" id="seleccion-curso" style="width:180px" required>
+            <option value="#" selected>Selecciona un curso</option>
+            <option value="Desarrollo Web">Desarrollo Web</option>
+            <option value="python">Python</option>
+            <option value="C++">C++</option>
+            <option value="Marketing Digital">Marketing Digital</option>
+            <option value="Inteligencia Artificial">Inteligencia Artificial</option>
+            <option value="Diseño Gráfico">Diseño Gráfico</option>
+            <option value="Corel Draw">Corel Draw</option>
+            <option value="Redes y Seguridad">Redes y Seguridad</option>
+            <option value="Excel">Excel</option>
+            <option value="Asesoría"><b>Asesoría para decidir</b></option>
+        </select>
       <br><br>
-      <input type="email" placeholder="Tu email" required>
-      <br><br>
-      <select name="lista-cursos" id="seleccion-curso" style="width:180px" placeholder="Selecciona un curso" required>
-        <option value="" disabled selected>Selecciona un curso</option>
-        <option value="Desarrollo Web">Desarrollo Web</option>
-        <option value="python">Python</option>
-        <option value="C++">C++</option>
-        <option value="Marketing Digital">Marketing Digital</option>
-        <option value="Inteligencia Artificial">Inteligencia Artificial</option>
-        <option value="Diseño Gráfico">Diseño Gráfico</option>
-        <option value="Corel Draw">Corel Draw</option>
-        <option value="Redes y Seguridad">Redes y Seguridad</option>
-        <option value="Excel">Excel</option>
-        <option value="Asesoría"><b>Asesoría para decidir</b></option>
-      </select>
-      <br><br>
-      <textarea placeholder="Tu consulta:" cols="80" rows="10" required></textarea>
+      <textarea placeholder="Tu consulta:" required></textarea>
       <br><br>
       <button type="submit" style="font-size: 20px; height: 40px; width: 200px;">Enviar</button>
     </form>
+    </div>
     <footer>
       <p><b>Email: </b>servicenet.contacto@gmail.com</p>
-      <p><b>Telegram: </b><a href="https://t.me/contacto_service_net" target="_blank">Telegram: @contacto_service_net</a>
+      <p><b>WhatsApp: </b><a href="https://wa.me/1126850111" target="_blank"><b>11-26850111</b></a>
       </p>
       <p><b>Copyright: </b>&copy; 2025 Service-Net Academy</p>
     </footer>
