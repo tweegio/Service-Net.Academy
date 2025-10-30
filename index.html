@@ -209,10 +209,12 @@
         <div id="contacto">
           <h2>Contacto</h2>
           <p>Envianos tu consulta!!!</p>
-          <form action="https://formspree.io/f/xvgvbdrb" method="POST">
-            <input type="text" placeholder="Tu nombre" required>
+         <form action="https://formspree.io/f/xvgvbdrb" method="POST">
+            <input type="text" name="nombre:" placeholder="Tu nombre"  required>
             <br><br>
-            <input type="email" placeholder="Tu email" required>
+            <input type="email" name="mail" placeholder="Tu email"  required>
+            <br><br>
+            <input type="text" name="telefono" placeholder="Teléfono"  required>
             <br><br>
         <select name="lista-cursos" id="seleccion-curso" style="width:180px" required>
             <option value="#" selected>Selecciona un curso</option>
@@ -228,7 +230,7 @@
             <option value="Asesoría"><b>Asesoría para decidir</b></option>
         </select>
       <br><br>
-      <textarea placeholder="Tu consulta:" required></textarea>
+      <textarea name="consulta" placeholder="Tu consulta:" required></textarea>
       <br><br>
       <button type="submit" style="font-size: 20px; height: 40px; width: 200px;" value="enviar">Enviar</button>
     </form>
