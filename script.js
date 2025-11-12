@@ -32,9 +32,9 @@ const cursos = [
     id: 4,
     titulo: "Programación con C++",
     descripcion: "Aprendé uno de los lenguajes más técnicos.<br>Duración: 6 meses.",
-    enlaceVideo: "https://drive.google.com/dddd",
-    enlaceMaterial: "https://drive.google.com/eeee",
-    enlaceClaseVirtual: "https://drive.google.com/file/d/1kxlbDd7M4Kud3puv8e9GQGGo75HNElxj/view?usp=sharing"
+    enlaceVideo: "#",
+    enlaceMaterial: "https://drive.google.com/file/d/1kxlbDd7M4Kud3puv8e9GQGGo75HNElxj/view?usp=sharing",
+    enlaceClaseVirtual: "#"
   },
     {
     id: 5,
@@ -48,25 +48,25 @@ const cursos = [
     id: 6,
     titulo: "Diseño Gráfico",
     descripcion: "Aprendé sobre los principios del diseño y la creatividad.<br>Duración: 4 meses.",
-    enlaceVideo: "https://drive.google.com/dddd",
+    enlaceVideo: "#",
     enlaceMaterial: "https://drive.google.com/eeee",
-    enlaceClaseVirtual: "https://meet.google.com/fff"
+    enlaceClaseVirtual: "#"
   },
     {
     id: 7,
     titulo: "Corel Draw",
     descripcion: "Aprendé sobre diseño gráfico y edición de imágenes.<br>Duración: 4 meses.",
-    enlaceVideo: "https://drive.google.com/dddd",
+    enlaceVideo: "#",
     enlaceMaterial: "https://drive.google.com/eeee",
-    enlaceClaseVirtual: "https://meet.google.com/fff"
+    enlaceClaseVirtual: "#"
   },
     {
     id: 8,
     titulo: "Photoshop",
     descripcion: "Aprendé sobre edición de imágenes y diseño gráfico.<br>Duración: 4 meses.",
-    enlaceVideo: "https://drive.google.com/dddd",
+    enlaceVideo: "#",
     enlaceMaterial: "https://drive.google.com/eeee",
-    enlaceClaseVirtual: "https://meet.google.com/fff"
+    enlaceClaseVirtual: "#"
   },
     {
     id: 9,
@@ -80,25 +80,25 @@ const cursos = [
     id: 10,
     titulo: "Redes y Seguridad Informática",
     descripcion: "Aprendé sobre redes y cómo proteger la información.<br>Duración: 4 meses.",
-    enlaceVideo: "https://drive.google.com/dddd",
+    enlaceVideo: "#",
     enlaceMaterial: "https://drive.google.com/eeee",
-    enlaceClaseVirtual: "https://meet.google.com/fff"
+    enlaceClaseVirtual: "#"
   },
     {
     id: 11,
     titulo: "Reparación de PC y Mantenimiento",
     descripcion: "Aprendé sobre el mantenimiento y reparación de computadoras.<br>Duración: 6 meses.",
-    enlaceVideo: "https://drive.google.com/dddd",
+    enlaceVideo: "#",
     enlaceMaterial: "https://drive.google.com/eeee",
-    enlaceClaseVirtual: "https://meet.google.com/fff"
+    enlaceClaseVirtual: "#"
   },
     {
     id: 12,
     titulo: "Soporte Técnico",
     descripcion: "Aprendé sobre el soporte y mantenimiento de sistemas informáticos.<br>Duración: 6 meses.",
-    enlaceVideo: "https://drive.google.com/dddd",
+    enlaceVideo: "#",
     enlaceMaterial: "https://drive.google.com/eeee",
-    enlaceClaseVirtual: "https://meet.google.com/fff"
+    enlaceClaseVirtual: "#"
   }
 ];
 
