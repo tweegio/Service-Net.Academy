@@ -57,7 +57,7 @@ const cursos = [
     titulo: "Corel Draw",
     descripcion: "Aprendé sobre diseño gráfico y edición de imágenes.<br>Duración: 4 meses.",
     enlaceVideo: "#",
-    enlaceMaterial: "https://drive.google.com/eeee",
+    enlaceMaterial: "https://drive.google.com/file/d/1vvpOCXX2nXR0PWn7C8SAuARezk1q6REz/view?usp=sharing",
     enlaceClaseVirtual: "#"
   },
     {
