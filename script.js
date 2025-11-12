@@ -49,7 +49,7 @@ const cursos = [
     titulo: "Diseño Gráfico",
     descripcion: "Aprendé sobre los principios del diseño y la creatividad.<br>Duración: 4 meses.",
     enlaceVideo: "#",
-    enlaceMaterial: "https://drive.google.com/eeee",
+    enlaceMaterial: "https://drive.google.com/file/d/1W7JN6PbyQE_v_l-3Qt7FUIEr1J0kdg8Q/view?usp=sharing",
     enlaceClaseVirtual: "#"
   },
     {
