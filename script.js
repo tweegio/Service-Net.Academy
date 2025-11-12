@@ -34,7 +34,7 @@ const cursos = [
     descripcion: "Aprendé uno de los lenguajes más técnicos.<br>Duración: 6 meses.",
     enlaceVideo: "https://drive.google.com/dddd",
     enlaceMaterial: "https://drive.google.com/eeee",
-    enlaceClaseVirtual: "https://meet.google.com/fff"
+    enlaceClaseVirtual: "https://drive.google.com/file/d/1kxlbDd7M4Kud3puv8e9GQGGo75HNElxj/view?usp=sharing"
   },
     {
     id: 5,
